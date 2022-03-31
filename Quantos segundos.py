@@ -1,0 +1,5 @@
+hora = int(input().strip())
+min = int(input().strip())
+seg = int(input().strip())
+calculo = ((hora*60*60)+(min*60)+seg)
+print(calculo)
